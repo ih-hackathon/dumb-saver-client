@@ -1,0 +1,67 @@
+@keyframes border {
+  0% {
+    border-color: #00FFFE;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    border-color: #FF00FE;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    border-color: #00FF00;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    border-color: #FEA500;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    border-color: #ECFF00;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.btn {
+  padding: 0px;
+  margin-top: 30px;
+  ;
+  margin-bottom: 50px;
+  border: 5px solid;
+  border-radius: 15px;
+  border-bottom: 25px solid;
+  width: 200px;
+  height: 100px;
+  animation-name: border;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.radius {
+  margin: -2px;
+  border: 7px solid;
+  border-radius: 15px;
+  width: 180px;
+  height: 65px;
+  animation-name: border;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  /* text inside */
+  font-size: 45px;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
